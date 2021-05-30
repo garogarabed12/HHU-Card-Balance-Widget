@@ -52,7 +52,7 @@ image::scripts.jpeg[500, 500]
 
 image::settings.jpeg[400, 400]
 
-* Wenn Sie jetzt zurückgehen und auf fertig drucken, sollte schon das widget da sein, und Sie sollen den Saldo Ihrer HHU Card sehen können.
+* Wenn Sie jetzt zurückgehen sollten Sie den Saldo Ihrer HHU Card sehen können.
 
 
 Made with ❤️ by https://github.com/garogarbed12[Garo Garabed] in Düsseldorf.
