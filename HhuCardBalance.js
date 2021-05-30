@@ -1,5 +1,5 @@
 /*
-* @author: Garo Garabed [<garogarabed12@protonmail.com>]
+* @author: Garo Garabed <garogarabed12@protonmail.com>
 * Credits to: ThisIsBenny (https://github.com/ThisIsBenny/iOS-Widgets)
 *
 * */
