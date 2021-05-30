@@ -1,0 +1,22 @@
+= HHU Card Balance
+:icons: font
+:icon-set: fa
+:source-highlighter: rouge
+:experimental:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:stem: latexmath
+endif::[]
+
+An iOS widget that allows all regularly enrolled students of the https://www.hhu.de[Heinrich Heine University] to check the balance of their https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card] instantly.
+
+== Requirements
+* Scriptable app to run the script (check its requirements on the https://apps.apple.com/us/app/scriptable/id1405459188?ign-mpt=uo%3D4[App Store])
+* HHU-Card
+
+[.text-center]
+Made with ❤️ by https://github.com/garogarbed12[Garo Garabed] in Düsseldorf.
