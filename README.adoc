@@ -14,17 +14,41 @@ endif::[]
 
 _For English version please read https://github.com/garogarabed12/HHU-Card-Balance/blob/main/README-EN.adoc[README-EN.adoc]_
 
-Ein iOS Widget der eremöglicht allen an der https://www.hhu.de[Heinrich Heine Universität Düsseldorf] ordentlich eingeschriebenen Studierenden
+Ein iOS Widget das eremöglicht allen an der https://www.hhu.de[Heinrich Heine Universität Düsseldorf] ordentlich eingeschriebenen Studierenden
 den aktuellen Saldo ihrer https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card] zu überprüfen.
 
 image::HhuCardBalance.png[]
 
 == Anforderungen
-* Die App Scriptable, um den Skript zum Laufen zu bringen.
+* Die App Scriptable, um das Skript zum Laufen zu bringen.
 (Die technischen Anforderungen von Scriptable finden Sie im https://apps.apple.com/us/app/scriptable/id1405459188?ign-mpt=uo%3D4[App Store])
 
 * HHU-Card
 
 
-[.text-center]
+== Konfiguration
+Das Skript befindet sich derzeit noch nicht in der Gallery von Scriptable, deswegen:
+
+* Kopieren Sie den ganzen Code aus der https://github.com/garogarabed12/HHU-Card-Balance/blob/main/HhuCardBalance.js[folgenden Datei].
+
+[WARNING]
+Bitte beachten Sie dass Sie wirklich den ganzen Code kopieren, also auch die obigen Kommentare.
+
+* Öffnen Sie Scriptable und klicken Sie auf das + und setzen Sie den Inhalt der o.g Datei dort ein.
+
+image::addscript.jpeg[]
+
+* Benennen Sie die Datei entsprechend in "HHU Card Balance" um in dem Sie auf den aktuellen Namen oben klicken, und wählen Sie danach _Done_.
+
+* Jetzt sollte HHU Card Balance unter Scripts gezeigt werden.
+
+* Gehen Sie nun zu Ihren Homescreen und und fügen Sie das Widget von Scriptable hinzu.
+
+* Bevor Sie _fertig_ wählen, klicken Sie auf das Widget das Sie gerade hinzugefügt haben, um ein Skript auszuwählen.
+
+* Für _Script_ wählen Sie _HHU Card Balance_ und für _When Interacting_ wählen Sie _Run Script_ und für _Parameter_ geben Sie die Geldbörsen ID Ihrer HHU Card.
+
+* Wenn Sie jetzt zurückgehen und auf fertig drucken, sollte schon das widget da sein, und Sie sollen den Saldo Ihrer HHU Card sehen können.
+
+
 Made with ❤️ by https://github.com/garogarbed12[Garo Garabed] in Düsseldorf.
