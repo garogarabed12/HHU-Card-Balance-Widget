@@ -35,7 +35,7 @@ let lastUpdate
 try {
     // If cache exists and it has been less than 30 minutes since last request, use cached data.
     if (cacheExists && (today.getTime() - cacheDate.getTime()) < (cacheMinutes * 60 * 1000)) {
-        console.log("Get from Cache")
+        console.log("Get from cache")
         result = JSON.parse(files.readString(cachePath))
         lastUpdate = cacheDate
     } else {
@@ -43,12 +43,12 @@ try {
         const req = new Request(url)
         result = await req.loadJSON()
         lastUpdate = today
-        console.log("Write Data to Cache")
+        console.log("Write data to cache")
         try {
             files.writeString(cachePath, JSON.stringify(result))
         } catch (e) {
-            console.log("Creating Cache failed!")
-            console.log(e)
+            console.error("Creating cache failed!")
+            console.error(e)
         }
     }
 } catch (e) {
