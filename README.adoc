@@ -34,19 +34,21 @@ Das Skript befindet sich derzeit noch nicht in der Gallery von Scriptable, deswe
 [WARNING]
 Bitte beachten Sie dass Sie wirklich den ganzen Code kopieren, also auch die obigen Kommentare.
 
-* Öffnen Sie Scriptable und klicken Sie auf das + und setzen Sie den Inhalt der o.g Datei dort ein.
-
-image::addscript.jpeg[]
+* Öffnen Sie Scriptable und klicken Sie auf das + oben rechts und setzen Sie den Inhalt der o.g Datei dort ein.
 
 * Benennen Sie die Datei entsprechend in "HHU Card Balance" um in dem Sie auf den aktuellen Namen oben klicken, und wählen Sie danach _Done_.
 
 * Jetzt sollte HHU Card Balance unter Scripts gezeigt werden.
 
+image::scripts.jpeg[500, 500]
+
 * Gehen Sie nun zu Ihren Homescreen und und fügen Sie das Widget von Scriptable hinzu.
 
-* Bevor Sie _fertig_ wählen, klicken Sie auf das Widget das Sie gerade hinzugefügt haben, um ein Skript auszuwählen.
+* Bevor Sie auf _fertig_ klicken, klicken Sie auf das Widget das Sie gerade hinzugefügt haben, um ein Skript auszuwählen.
 
 * Für _Script_ wählen Sie _HHU Card Balance_ und für _When Interacting_ wählen Sie _Run Script_ und für _Parameter_ geben Sie die Geldbörsen ID Ihrer HHU Card.
+
+image::settings.jpeg[400, 400]
 
 * Wenn Sie jetzt zurückgehen und auf fertig drucken, sollte schon das widget da sein, und Sie sollen den Saldo Ihrer HHU Card sehen können.
 
