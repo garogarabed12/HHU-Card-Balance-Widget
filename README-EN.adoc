@@ -20,5 +20,32 @@ image::HhuCardBalance.png[]
 * Scriptable app to run the script (check its requirements on the https://apps.apple.com/us/app/scriptable/id1405459188?ign-mpt=uo%3D4[App Store])
 * HHU-Card
 
-[.text-center]
+== Configuration
+The script is currently not included in the Gallery of Scriptable, that's why:
+
+* Copy the whole code from the following https://github.com/garogarabed12/HHU-Card-Balance/blob/main/HhuCardBalance.js[file].
+
+[WARNING]
+Kindly make sure that you copy the whole code, even the comments above.
+
+* Open Scriptable and tap on the + sign right above and paste the copied code from the above mentioned file.
+
+* Click on the symbol marked in red to rename the file to "HHU Card Balance" and to perform other customizations as desired.
+
+image::edit.jpeg[500, 500]
+
+* After tapping on _done "HHU Card Balance" should be shown in the list of the Scripts.
+
+image::scripts.jpeg[500, 500]
+
+* Now go to your homescreen and add the Scriptable widget.
+
+* Tap and hold the widget you just added then select _Edit widget_.
+
+* For _Script_ select _HHU Card Balance_ and for _When Interacting_ select _Run Script_ and for _Parameter_ type in the Geldbörsen Id from the backside of your HHU Card.
+
+image::settings.jpeg[400, 400]
+
+* Now when you go back and tap on _done_, the widget should be shown and you'll be able to see the current balance of your HHU Card.
+
 Made with ❤️ by https://github.com/garogarbed12[Garo Garabed] in Düsseldorf.
