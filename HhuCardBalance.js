@@ -25,14 +25,11 @@ const files = FileManager.local()
 
 // Set up cache
 const cachePath = files.joinPath(files.cacheDirectory(), "widget-hhucard-balance")
-
 const cacheExists = files.fileExists(cachePath)
-
 const cacheDate = cacheExists ? files.modificationDate(cachePath) : 0
 
 // Get Data
 let result
-
 let lastUpdate
 
 try {
@@ -67,7 +64,7 @@ try {
 
 let balance = (result.balance / 100).toString() + "€"
 
-
+//Set up the widget
 let widget = new ListWidget();
 
 if (!balance) {
@@ -76,6 +73,7 @@ if (!balance) {
     widget.setPadding(10, 10, 10, 10)
     widget.backgroundColor = new Color('#0173ba')
 
+    //Title
     const title = widget.addText("My HHU Card")
     title.font = Font.largeTitle()
     title.textColor = Color.white()
@@ -85,6 +83,7 @@ if (!balance) {
     
     widget.addSpacer(5)
 
+    //Display Time
     const time = widget.addText("Heute: " + today.toLocaleTimeString());
     time.font = Font.thinMonospacedSystemFont(15);
     time.textColor = Color.white()
@@ -92,6 +91,7 @@ if (!balance) {
 
     widget.addSpacer(5)
 
+    //Message
     const message1 = widget.addText("Zuletzt erfasstes");
     message1.font = Font.regularSystemFont(15)
     message1.textColor = Color.white()
@@ -105,7 +105,6 @@ if (!balance) {
     message2.centerAlignText()
     message2.minimumScaleFactor = 0.5
     message2.lineLimit = 1
-
 
     const pointText = widget.addText(balance)
     pointText.font = Font.semiboldMonospacedSystemFont(36)
