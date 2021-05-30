@@ -1,0 +1,28 @@
+= HHU Card Balance
+:icons: font
+:icon-set: fa
+:source-highlighter: rouge
+:experimental:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:stem: latexmath
+endif::[]
+
+For English version please read https://github.com/garogarabed12/HHU-Card-Balance/blob/main/README-EN.adoc[README-EN.adoc]
+
+Ein iOS Widget der eremöglicht allen an der https://www.hhu.de[Heinrich Heine Universität Düsseldorf] ordentlich eingeschriebenen Studierenden
+den aktuellen Saldo ihrer https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card] zu überprüfen.
+
+== Anforderungen
+* Die App Scriptable, um den Skript zum Laufen zu bringen.
+(Die technischen Anforderungen von Scriptable finden Sie im https://apps.apple.com/us/app/scriptable/id1405459188?ign-mpt=uo%3D4[App Store])
+
+* HHU-Card
+
+
+[.text-center]
+Made with ❤️ by https://github.com/garogarbed12[Garo Garabed] in Düsseldorf.
