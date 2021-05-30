@@ -55,4 +55,4 @@ image::settings.jpeg[400, 400]
 * Wenn Sie jetzt zurückgehen sollten Sie den Saldo Ihrer HHU Card sehen können.
 
 
-Made with ❤️ by https://github.com/garogarbed12[Garo Garabed] in Düsseldorf.
+Made with ❤️ by https://github.com/garogarabed12[Garo Garabed] in Düsseldorf.
