@@ -14,7 +14,7 @@ endif::[]
 
 An iOS widget that allows all regularly enrolled students of the https://www.hhu.de[Heinrich Heine University] to check the balance of their https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card] instantly.
 
-image::HhuCardBalance.png[]
+image::HhuCardBalance.png[250, 250]
 
 == Requirements
 * Scriptable app to run the script (check its requirements on the https://apps.apple.com/us/app/scriptable/id1405459188?ign-mpt=uo%3D4[App Store])
