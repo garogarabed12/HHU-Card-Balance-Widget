@@ -46,6 +46,6 @@ image::scripts.jpeg[500, 500]
 
 image::settings.jpeg[400, 400]
 
-* Now when you go back and tap on _done_, the widget should be shown and you'll be able to see the current balance of your HHU Card.
+* Now when you go back you will be able to see the current balance of your HHU Card.
 
 Made with ❤️ by https://github.com/garogarbed12[Garo Garabed] in Düsseldorf.
