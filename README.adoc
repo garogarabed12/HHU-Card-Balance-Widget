@@ -36,15 +36,17 @@ Bitte beachten Sie dass Sie wirklich den ganzen Code kopieren, also auch die obi
 
 * Öffnen Sie Scriptable und klicken Sie auf das + oben rechts und setzen Sie den Inhalt der o.g Datei dort ein.
 
-* Benennen Sie die Datei entsprechend in "HHU Card Balance" um in dem Sie auf den aktuellen Namen oben klicken, und wählen Sie danach _Done_.
+* Klicken Sie nun auf das im rot markierten Symbol um die Datei in "HHU Card Balance" umzubenennen, und nach Wunsch andere Anpassungen vorzunehmen.
 
-* Jetzt sollte HHU Card Balance unter Scripts gezeigt werden.
+image::edit.jpeg[500, 500]
+
+* Nachdem Sie auf _done_ geklickt haben sollte HHU Card Balance unter Scripts gezeigt werden.
 
 image::scripts.jpeg[500, 500]
 
 * Gehen Sie nun zu Ihren Homescreen und und fügen Sie das Widget von Scriptable hinzu.
 
-* Bevor Sie auf _fertig_ klicken, klicken Sie auf das Widget das Sie gerade hinzugefügt haben, um ein Skript auszuwählen.
+* Halten Sie das Widget das Sie gerade hinzugefügt haben gedrückt und klicken Sie _Widget bearbeiten_.
 
 * Für _Script_ wählen Sie _HHU Card Balance_ und für _When Interacting_ wählen Sie _Run Script_ und für _Parameter_ geben Sie die Geldbörsen ID Ihrer HHU Card.
 
