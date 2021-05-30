@@ -34,7 +34,7 @@ Kindly make sure that you copy the whole code, even the comments above.
 
 image::edit.jpeg[500, 500]
 
-* After tapping on _done "HHU Card Balance" should be shown in the list of the Scripts.
+* After tapping on _done_ "HHU Card Balance" should be shown in the list of the Scripts.
 
 image::scripts.jpeg[500, 500]
 
