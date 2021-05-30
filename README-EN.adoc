@@ -48,4 +48,7 @@ image::settings.jpeg[400, 400]
 
 * Now when you go back you will be able to see the current balance of your HHU Card.
 
+== Contact
+If you have any questions, face any problems or have any improvment suggestions do not hesitate to open a new https://github.com/garogarabed12/HHU-Card-Balance-Widget/issues/new[issue]
+
 Made with ❤️ by https://github.com/garogarabed12[Garo Garabed] in Düsseldorf.
