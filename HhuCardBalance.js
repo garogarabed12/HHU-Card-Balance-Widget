@@ -74,7 +74,7 @@ if (!balance) {
     widget.backgroundColor = new Color('#0173ba')
 
     //Title
-    const title = widget.addText("My HHU Card")
+    const title = widget.addText("Meine HHU Card")
     title.font = Font.largeTitle()
     title.textColor = Color.white()
     title.centerAlignText()
