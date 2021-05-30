@@ -67,17 +67,6 @@ try {
 
 let balance = (result.balance / 100).toString() + "€"
 
-const imageCachePath = files.joinPath(files.cacheDirectory(), "widget-hhu-logo")
-const imageCachePathExists = files.fileExists(imageCachePath)
-let logo
-if (imageCachePathExists) {
-    logo = files.readImage(imageCachePath)
-} else {
-    //Get a logo when allowed
-    const imgReq = new Request('')
-    logo = await imgReq.loadImage()
-    files.writeImage(imageCachePath, logo)
-}
 
 let widget = new ListWidget();
 
@@ -85,40 +74,42 @@ if (!balance) {
     widget.addText('Unable to get HHU-Card balance. Please check logs.')
 } else {
     widget.setPadding(10, 10, 10, 10)
-    widget.backgroundColor = new Color('#ffffff')
+    widget.backgroundColor = new Color('#0173ba')
 
-    const logoElement = widget.addImage(logo)
-    logoElement.imageSize = new Size(35, 35)
-    logoElement.applyFillingContentMode()
-    logoElement.centerAlignImage()
-
+    const title = widget.addText("My HHU Card")
+    title.font = Font.largeTitle()
+    title.textColor = Color.white()
+    title.centerAlignText()
+    title.minimumScaleFactor = 0.5
+    title.lineLimit = 1
+    
     widget.addSpacer(5)
 
     const time = widget.addText("Heute: " + today.toLocaleTimeString());
     time.font = Font.thinMonospacedSystemFont(15);
-    time.textColor = Color.black()
+    time.textColor = Color.white()
     time.centerAlignText()
 
     widget.addSpacer(5)
 
     const message1 = widget.addText("Zuletzt erfasstes");
     message1.font = Font.regularSystemFont(15)
-    message1.textColor = Color.black()
+    message1.textColor = Color.white()
     message1.centerAlignText()
     message1.minimumScaleFactor = 0.5
     message1.lineLimit = 1
 
     const message2 = widget.addText("Guthaben:");
     message2.font = Font.regularSystemFont(15)
-    message2.textColor = Color.black()
+    message2.textColor = Color.white()
     message2.centerAlignText()
     message2.minimumScaleFactor = 0.5
     message2.lineLimit = 1
 
 
     const pointText = widget.addText(balance)
-    pointText.font = Font.regularSystemFont(36)
-    pointText.textColor = Color.black()
+    pointText.font = Font.semiboldMonospacedSystemFont(36)
+    pointText.textColor = Color.white()
     pointText.centerAlignText()
     pointText.minimumScaleFactor = 0.5
     pointText.lineLimit = 1
