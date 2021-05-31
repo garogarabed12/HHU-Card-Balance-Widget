@@ -54,8 +54,10 @@ image::settings.jpeg[400, 400]
 
 * Wenn Sie jetzt zurückgehen sollten Sie den Saldo Ihrer HHU Card sehen können.
 
+== Inspiration und Hilfe
+Bevor ich dieses Skript geschrieben habe, musste ich mich von dem tollen https://github.com/ThisIsBenny/iOS-Widgets[Repo] von https://github.com/ThisIsBenny[Benny] inspirieren lassen und mich an die hilfreiche https://docs.scriptable.app/[Dokumentation] von Scriptable wenden. Ohne sie beide wäre es nicht möglich gewesen, dieses Widget zu erstellen.
 
 == Kontakt
 Für Fragen, Probleme sowie Verbesserungsvorschläge zögern Sie nicht eine neue https://github.com/garogarabed12/HHU-Card-Balance-Widget/issues/new[Issue] zu öffnen.
 
-Made with ❤️ by https://github.com/garogarabed12[Garo Garabed] in Düsseldorf.
+Made with ❤️ in Düsseldorf, Germany.
