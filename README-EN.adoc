@@ -54,4 +54,6 @@ Before writing this script I had to get inspired by the amazing https://github.c
 == Contact
 If you have any questions, face any problems or have any improvment suggestions do not hesitate to open a new https://github.com/garogarabed12/HHU-Card-Balance-Widget/issues/new[issue]
 
+---
+
 Made with ❤️ in Düsseldorf, Germany.
