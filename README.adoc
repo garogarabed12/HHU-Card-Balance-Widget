@@ -60,4 +60,6 @@ Bevor ich dieses Skript geschrieben habe, musste ich mich von dem tollen https:/
 == Kontakt
 Für Fragen, Probleme sowie Verbesserungsvorschläge zögern Sie nicht eine neue https://github.com/garogarabed12/HHU-Card-Balance-Widget/issues/new[Issue] zu öffnen.
 
+---
+
 Made with ❤️ in Düsseldorf, Germany.
