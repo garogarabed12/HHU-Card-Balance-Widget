@@ -33,11 +33,11 @@ if (widgetInputRAW !== null) {
     geldboersenID = widgetInputRAW.toString()
 } else console.error("Bitte geben Sie die Geldbörsen ID. Sie finden dies auf der Rückseite Ihrer HHU Card")
 
-//Get request
+//GET request
 const url = "https://topup.klarna.com/api/STW_DUSSELDORF/cards/" + geldboersenID + "/balance";
 
 var today = new Date()
-let cacheMinutes = 4 * 60
+let cacheMinutes = 60 * 1 * 1000
 
 // Set up the file manager.
 const files = FileManager.local()
@@ -47,13 +47,13 @@ const cachePath = files.joinPath(files.cacheDirectory(), "widget-hhucard-balance
 const cacheExists = files.fileExists(cachePath)
 const cacheDate = cacheExists ? files.modificationDate(cachePath) : 0
 
-// Get Data
+// Get data
 let result
 let lastUpdate
 
 try {
-    // If cache exists and it has been less than 30 minutes since last request, use cached data.
-    if (cacheExists && (today.getTime() - cacheDate.getTime()) < (cacheMinutes * 60 * 1000)) {
+    // If cache exists and it has been less than 1 minute since last request, use cached data.
+    if (cacheExists && (today.getTime() - cacheDate.getTime()) < (cacheMinutes)) {
         console.log("Get from cache")
         result = JSON.parse(files.readString(cachePath))
         lastUpdate = cacheDate
