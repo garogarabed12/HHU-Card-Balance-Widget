@@ -14,7 +14,7 @@ endif::[]
 
 An iOS widget that allows all regularly enrolled students of the https://www.hhu.de[Heinrich Heine University] to check the balance of their https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card] instantly.
 
-image::HhuCardBalance.png[250, 250]
+image::Screenshots/HhuCardBalance.png[250, 250]
 
 == Requirements
 * Scriptable app to run the script (check its requirements on the https://apps.apple.com/us/app/scriptable/id1405459188?ign-mpt=uo%3D4[App Store])
@@ -32,11 +32,11 @@ Kindly make sure that you copy the whole code, even the comments above.
 
 * Click on the symbol marked in red to rename the file to "HHU Card Balance" and to perform other customizations as desired.
 
-image::edit.jpeg[500, 500]
+image::Screenshots/edit.jpeg[500, 500]
 
 * After tapping on _done_ "HHU Card Balance" should be shown in the list of the Scripts.
 
-image::scripts.jpeg[500, 500]
+image::Screenshots/scripts.jpeg[500, 500]
 
 * Now go to your homescreen and add the Scriptable widget.
 
@@ -44,7 +44,7 @@ image::scripts.jpeg[500, 500]
 
 * For _Script_ select _HHU Card Balance_ and for _When Interacting_ select _Run Script_ and for _Parameter_ type in the Geldbörsen Id from the backside of your HHU Card.
 
-image::settings.jpeg[400, 400]
+image::Screenshots/settings.jpeg[400, 400]
 
 * Now when you go back you will be able to see the current balance of your HHU Card.
 
