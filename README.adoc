@@ -12,7 +12,7 @@ ifdef::env-github[]
 :stem: latexmath
 endif::[]
 
-_For English version please read https://github.com/garogarabed12/HHU-Card-Balance/blob/main/README-EN.adoc[README-EN.adoc]_
+_For the English version please read https://github.com/garogarabed12/HHU-Card-Balance/blob/main/README-EN.adoc[README-EN.adoc]_
 
 Ein iOS Widget das ermöglicht allen an der https://www.hhu.de[Heinrich Heine Universität Düsseldorf] ordentlich eingeschriebenen Studierenden
 den aktuellen Saldo ihrer https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card] zu überprüfen.
