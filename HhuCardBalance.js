@@ -34,7 +34,7 @@ if (widgetInputRAW !== null) {
 } else console.error("Bitte geben Sie die Geldbörsen ID. Sie finden dies auf der Rückseite Ihrer HHU Card")
 
 //GET request
-const url = "https://topup.klarna.com/api/STW_DUSSELDORF/cards/" + geldboersenID + "/balance";
+const url = "https://topup.klarna.com/api/v1/STW_DUSSELDORF/cards/" + geldboersenID + "/balance";
 
 var today = new Date()
 let cacheMinutes = 60 * 1 * 1000
