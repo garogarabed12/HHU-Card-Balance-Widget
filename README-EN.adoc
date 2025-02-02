@@ -12,6 +12,12 @@ ifdef::env-github[]
 :stem: latexmath
 endif::[]
 
+[IMPORTANT]
+Due to the change of the service provider, the widget is not operational anymore. Hence, this repository is archived.
+
+---
+
+
 An iOS widget that allows all regularly enrolled students of the https://www.hhu.de[Heinrich Heine University] to instantly check the balance of their https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card].
 
 image::Screenshots/HhuCardBalance.png[250, 250]
