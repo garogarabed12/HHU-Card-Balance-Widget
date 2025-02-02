@@ -14,7 +14,12 @@ endif::[]
 
 _For the English version please read https://github.com/garogarabed12/HHU-Card-Balance/blob/main/README-EN.adoc[README-EN.adoc]_
 
-Ein iOS Widget das ermöglicht allen an der https://www.hhu.de[Heinrich Heine Universität Düsseldorf] ordentlich eingeschriebenen Studierenden
+[IMPORTANT]
+Aufgrund des Wechsels des Serviceanbieters ist das Widget nicht mehr funktionsfähig. Daher wird dieses Repository archiviert.
+
+---
+
+Hierbei handelt es sich um ein iOS Widget das ermöglicht allen an der https://www.hhu.de[Heinrich Heine Universität Düsseldorf] ordentlich eingeschriebenen Studierenden
 den aktuellen Saldo ihrer https://www.zim.hhu.de/servicekatalog/werkzeuge-fuer-alle/hhu-card[HHU Card] zu überprüfen.
 
 image::Screenshots/HhuCardBalance.png[250, 250]
